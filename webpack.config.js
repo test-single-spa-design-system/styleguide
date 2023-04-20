@@ -1,4 +1,4 @@
-const { merge } = require("webpack-merge");
+const { merge, mergeWithRules } = require("webpack-merge");
 const singleSpaDefaults = require("webpack-config-single-spa");
 
 module.exports = (webpackConfigEnv, argv) => {
